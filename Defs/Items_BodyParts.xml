@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BodyPartNaturalBase" Name="LingBodyPartNaturalBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Item/BodyPart/LingOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+  <!-- Upper Body -->
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Torso</defName>
+    <label>Torso</label>
+    <description>The human body apart from the head, neck, arms, and legs.</description>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>70</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Waist</defName>
+    <label>Waist</label>
+    <description>The typically narrowed part of the body between the hips and chest or upper back.</description>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Mass>9</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Stomach</defName>
+    <label>Stomach</label>
+    <description>The organ used for digesting food.</description>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <!-- Head -->
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Neck</defName>
+    <label>Neck</label>
+    <description>The bodypart that connects the head with the body.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Mass>6</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Head</defName>
+    <label>Head</label>
+    <description>The base of operations for the human body that controls most of its movements.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Mass>7</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Skull</defName>
+    <label>Skull</label>
+    <description>The skeleton of the head.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>3</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Brain</defName>
+    <label>Brain</label>
+    <description>The nervous center of the body that controls all of its actions and thoughts.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Mass>3</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Eye</defName>
+    <label>Eye</label>
+    <description>A specialized light-sensitive sensory structure of the body that is the image-forming organ of sight.</description>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>0.03</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Ear</defName>
+    <label>Ear</label>
+    <description>The sensory structure of the body used for hearing.</description>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>0.06</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Nose</defName>
+    <label>Nose</label>
+    <description>The part of the face that bears the nostrils and covers the anterior part of the nasal cavity.</description>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>0.08</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Jaw</defName>
+    <label>Jaw</label>
+    <description>The parts constituting the walls of the mouth and serving to open and close it.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <!-- Upper Limbs -->
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Shoulder</defName>
+    <label>Shoulder</label>
+    <description>The part of the body that connects the torso with the arms.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>7</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Arm</defName>
+    <label>Arm</label>
+    <description>The part of the body used for various precise actions.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Hand</defName>
+    <label>Hand</label>
+    <description>The ending part of the arm.</description>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MarketValue>75</MarketValue>
+      <Mass>0.21</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Finger</defName>
+    <label>Finger</label>
+    <description>Any of the five terminating members of the hand.</description>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MarketValue>22</MarketValue>
+      <Mass>0.04</Mass>
+    </statBases>
+  </ThingDef>
+
+  <!-- Lower Limbs -->
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Leg</defName>
+    <label>Leg</label>
+    <description>A limb used especially for supporting the body and for walking.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>434</MarketValue>
+      <Mass>10</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Foot</defName>
+    <label>Foot</label>
+    <description>The ending part of the leg.</description>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MarketValue>65</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Toe</defName>
+    <label>Toe</label>
+    <description>Any of the five terminating members of the foot.</description>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MarketValue>9</MarketValue>
+      <Mass>0.02</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <!-- Bones -->
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Ribcage</defName>
+    <label>Ribcage</label>
+    <description>A paired, curved bony rod that stiffens the walls of the body and protects the viscera.</description>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.017</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Spine</defName>
+    <label>Spine</label>
+    <description>The axial skeleton that consists of an articulated series of vertebrae which extend from the neck to the tail and protect the spinal cord.</description>
+    <stackLimit>15</stackLimit>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <Mass>3</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Clavicle</defName>
+    <label>Clavicle</label>
+    <description>A bone of the shoulder girdle typically serving to link the scapula and sternum.</description>
+    <stackLimit>15</stackLimit>
+    <statBases>
+      <MarketValue>28</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Sternum</defName>
+    <label>Sternum</label>
+    <description>A compound ventral bone or cartilage of most vertebrates other than fishes that connects the ribs or the shoulder girdle or both and in humans consists of the manubrium, gladiolus, and xiphoid process.</description>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>43</MarketValue>
+      <Mass>6</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Humerus</defName>
+    <label>Humerus</label>
+    <description>The long bone of the upper arm or forelimb extending from the shoulder to the elbow.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Radius</defName>
+    <label>Radius</label>
+    <description>The bone on the thumb side of the human forearm.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <Mass>0.83</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Pelvis</defName>
+    <label>Pelvis</label>
+    <description>A basin-shaped structure in the skeleton of many vertebrates that is formed by the pelvic girdle and adjoining bones of the spine.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>43</MarketValue>
+      <Mass>2.4</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Femur</defName>
+    <label>Femur</label>
+    <description>The proximal bone of the hind or lower limb that extends from the hip to the knee.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>35</MarketValue>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LingBodyPartNaturalBase">
+    <defName>Tibia</defName>
+    <label>Tibia</label>
+    <description>The inner and usually larger of the two bones of the vertebrate hind or lower limb between the knee and ankle.</description>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>24</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+  </ThingDef>
+  
+</Defs>

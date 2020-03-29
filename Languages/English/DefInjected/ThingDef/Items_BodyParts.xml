@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 躯干 -->
+
+  <Torso.label>torso</Torso.label>
+  <Torso.description>a human's torso.</Torso.description>
+
+  <Waist.label>waist</Waist.label>
+  <Waist.description>a waist.</Waist.description>
+
+  <Stomach.label>stomach</Stomach.label>
+  <Stomach.description>a Stomach.</Stomach.description>
+
+
+  <!-- 头颅 -->
+
+  <Neck.label>neck</Neck.label>
+  <Neck.description>Human‘s Neck.</Neck.description>
+
+  <Head.label>head</Head.label>
+  <Head.description>Only a Head.</Head.description>
+
+  <Skull.label>Skull</Skull.label>
+  <Skull.description>a Skull.</Skull.description>
+
+  <Brain.label>brain</Brain.label>
+  <Brain.description>Human's brain,you can eat it.</Brain.description>
+
+  <Eye.label>eye</Eye.label>
+  <Eye.description>a eye.</Eye.description>
+
+  <Ear.label>Ear</Ear.label>
+  <Ear.description>a ear.</Ear.description>
+
+  <Nose.label>nose</Nose.label>
+  <Nose.description>a nose.</Nose.description>
+
+  <Jaw.label>jaw</Jaw.label>
+  <Jaw.description>a Jaw.</Jaw.description>
+
+
+  <!-- 上肢 -->
+
+  <Shoulder.label>shoulder</Shoulder.label>
+  <Shoulder.description>a Shoulder.</Shoulder.description>
+
+  <Arm.label>arm</Arm.label>
+  <Arm.description>a arm.</Arm.description>
+
+  <Hand.label>hand</Hand.label>
+  <Hand.description>a hand.</Hand.description>
+
+  <Finger.label>finger</Finger.label>
+  <Finger.description>a finger.</Finger.description>
+
+
+  <!-- 下肢 -->
+
+  <Leg.label>leg</Leg.label>
+  <Leg.description>a leg.</Leg.description>
+
+  <Foot.label>foot</Foot.label>
+  <Foot.description>a foot.</Foot.description>
+
+  <Toe.label>toe</Toe.label>
+  <Toe.description>a toe.</Toe.description>
+
+
+  <!-- 骨头 -->
+
+  <Rib.label>rib</Rib.label>
+  <Rib.description>a rib.</Rib.description>
+
+  <Spine.label>spine</Spine.label>
+  <Spine.description>a spine.</Spine.description>
+
+  <Clavicle.label>clavicle</Clavicle.label>
+  <Clavicle.description>a clavicle.</Clavicle.description>
+
+  <Sternum.label>sternum</Sternum.label>
+  <Sternum.description>a sternum.</Sternum.description>
+
+  <Humerus.label>humerus</Humerus.label>
+  <Humerus.description>a humerus.</Humerus.description>
+
+  <Radius.label>radius</Radius.label>
+  <Radius.description>a radius.</Radius.description>
+
+  <Pelvis.label>pelvis</Pelvis.label>
+  <Pelvis.description>a pelvis.</Pelvis.description>
+
+  <Femur.label>femur</Femur.label>
+  <Femur.description>a femur.</Femur.description>
+
+  <Tibia.label>tibia</Tibia.label>
+  <Tibia.description>a tibia.</Tibia.description>
+
+
+</LanguageData>

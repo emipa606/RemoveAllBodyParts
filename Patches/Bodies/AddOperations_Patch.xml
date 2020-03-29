@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Torso"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Torso</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Shoulder"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Shoulder</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Arm"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Arm</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Hand"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Hand</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Finger"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Finger</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Waist"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Waist</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Toe"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Toe</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Clavicle"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Clavicle</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Sternum"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Sternum</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Humerus"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Humerus</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Radius"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Radius</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Pelvis"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Pelvis</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Femur"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Femur</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Tibia"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Tibia</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Stomach"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Head"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Head</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Skull"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Skull</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Brain"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Brain</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Eye"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Eye</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Ear"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Ear</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Nose"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Nose</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Jaw"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Jaw</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Neck"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Neck</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Ribcage"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Ribcage</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Spine"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Spine</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Leg"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Leg</spawnThingOnRemoved>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/BodyPartDef[defName = "Foot"]</xpath>
+		<value>
+          <spawnThingOnRemoved>Foot</spawnThingOnRemoved>
+		</value>
+	</Operation>
+</Patch>
