@@ -1,1118 +1,1089 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!--======================= Install natural parts =========================-->
- <RecipeDef  Name="SurgeryFleshHuman" ParentName="SurgeryFlesh" Abstract="True">
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalTorso</defName>
-		<label>install Torso</label>
-		<description>Installs Torso.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Torso.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Torso</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Torso</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Torso</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalShoulder</defName>
-		<label>install Shoulder</label>
-		<description>Installs Shoulder.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Shoulder.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Shoulder</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Shoulder</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Shoulder</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalArm</defName>
-		<label>install Arm</label>
-		<description>Installs Arm.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Arm.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Arm</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Arm</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Arm</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalHand</defName>
-		<label>install Hand</label>
-		<description>Installs Hand.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Hand.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Hand</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Hand</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Hand</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalFinger</defName>
-		<label>install Finger</label>
-		<description>Installs Finger.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Finger.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Finger</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Finger</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Hand</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalWaist</defName>
-		<label>install Waist</label>
-		<description>Installs Waist.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Waist.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Waist</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Waist</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Waist</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalToe</defName>
-		<label>install Toe</label>
-		<description>Installs Toe.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Toe.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Toe</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Toe</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Toe</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalClavicle</defName>
-		<label>install Clavicle</label>
-		<description>Installs Clavicle.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Clavicle.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Clavicle</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Clavicle</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Clavicle</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalSternum</defName>
-		<label>install Sternum</label>
-		<description>Installs Sternum.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Sternum.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Sternum</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Sternum</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Sternum</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalHumerus</defName>
-		<label>install Humerus</label>
-		<description>Installs Humerus.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Humerus.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Humerus</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Humerus</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Humerus</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalRadius</defName>
-		<label>install Radius</label>
-		<description>Installs Radius.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Radius.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Radius</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Radius</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Radius</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalPelvis</defName>
-		<label>install Pelvis</label>
-		<description>Installs Pelvis.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Pelvis.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Pelvis</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Pelvis</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Pelvis</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalFemur</defName>
-		<label>install Femur</label>
-		<description>Installs Femur.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Femur.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Femur</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Femur</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Femur</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalTibia</defName>
-		<label>install Tibia</label>
-		<description>Installs Tibia.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Tibia.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Tibia</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Tibia</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Tibia</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalStomach</defName>
-		<label>install Stomach</label>
-		<description>Installs Stomach.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Stomach.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Stomach</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Stomach</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Stomach</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalHead</defName>
-		<label>install Head</label>
-		<description>Installs Head.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Head.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Head</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Head</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Head</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalSkull</defName>
-		<label>install Skull</label>
-		<description>Installs Skull.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Skull.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Skull</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Skull</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Skull</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalBrain</defName>
-		<label>install Brain</label>
-		<description>Installs Brain.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Brain.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Brain</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Brain</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Brain</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalEye</defName>
-		<label>install Eye</label>
-		<description>Installs Eye.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Eye.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Eye</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Eye</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Eye</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalEar</defName>
-		<label>install Ear</label>
-		<description>Installs Ear.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Ear.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Ear</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Ear</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ear</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalNose</defName>
-		<label>install Nose</label>
-		<description>Installs Nose.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Nose.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Nose</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Nose</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Nose</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalJaw</defName>
-		<label>install Jaw</label>
-		<description>Installs Jaw.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Jaw.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Jaw</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Jaw</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Jaw</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalNeck</defName>
-		<label>install Neck</label>
-		<description>Installs Neck.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Neck.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Neck</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Neck</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Neck</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalRibcage</defName>
-		<label>install Ribcage</label>
-		<description>Installs Ribcage.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Ribcage.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Ribcage</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Ribcage</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ribcage</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalSpine</defName>
-		<label>install Spine</label>
-		<description>Installs Spine.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Spine.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Spine</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Spine</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Spine</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalLeg</defName>
-		<label>install Leg</label>
-		<description>Installs Leg.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Leg.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Leg</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Leg</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Leg</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="SurgeryFleshHuman">
-		<defName>InstallNaturalFoot</defName>
-		<label>install Foot</label>
-		<description>Installs Foot.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing Foot.</jobString>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Foot</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Foot</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Foot</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-	
-	</Defs>
+  <RecipeDef Name="SurgeryFleshHuman" ParentName="SurgeryFlesh" Abstract="True">
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalTorso</defName>
+    <label>install Torso</label>
+    <description>Installs Torso.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Torso.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Torso</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Torso</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalShoulder</defName>
+    <label>install Shoulder</label>
+    <description>Installs Shoulder.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Shoulder.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shoulder</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Shoulder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalArm</defName>
+    <label>install Arm</label>
+    <description>Installs Arm.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Arm.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Arm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Arm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalHand</defName>
+    <label>install Hand</label>
+    <description>Installs Hand.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Hand.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hand</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Hand</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalFinger</defName>
+    <label>install Finger</label>
+    <description>Installs Finger.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Finger.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Finger</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Finger</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalWaist</defName>
+    <label>install Waist</label>
+    <description>Installs Waist.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Waist.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Waist</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Waist</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Waist</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalToe</defName>
+    <label>install Toe</label>
+    <description>Installs Toe.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Toe.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Toe</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Toe</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Toe</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalClavicle</defName>
+    <label>install Clavicle</label>
+    <description>Installs Clavicle.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Clavicle.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Clavicle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Clavicle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Clavicle</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalSternum</defName>
+    <label>install Sternum</label>
+    <description>Installs Sternum.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Sternum.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Sternum</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Sternum</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalHumerus</defName>
+    <label>install Humerus</label>
+    <description>Installs Humerus.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Humerus.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Humerus</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Humerus</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Humerus</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalRadius</defName>
+    <label>install Radius</label>
+    <description>Installs Radius.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Radius.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Radius</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Radius</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Radius</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalPelvis</defName>
+    <label>install Pelvis</label>
+    <description>Installs Pelvis.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Pelvis.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Pelvis</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Pelvis</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Pelvis</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalFemur</defName>
+    <label>install Femur</label>
+    <description>Installs Femur.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Femur.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Femur</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Femur</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Femur</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalTibia</defName>
+    <label>install Tibia</label>
+    <description>Installs Tibia.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Tibia.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Tibia</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Tibia</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Tibia</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalStomach</defName>
+    <label>install Stomach</label>
+    <description>Installs Stomach.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Stomach.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Stomach</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Stomach</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalHead</defName>
+    <label>install Head</label>
+    <description>Installs Head.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Head.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Head</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Head</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Head</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalSkull</defName>
+    <label>install Skull</label>
+    <description>Installs Skull.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Skull.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Skull</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Skull</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Skull</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalBrain</defName>
+    <label>install Brain</label>
+    <description>Installs Brain.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Brain.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Brain</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Brain</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalEye</defName>
+    <label>install Eye</label>
+    <description>Installs Eye.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Eye.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Eye</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Eye</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalEar</defName>
+    <label>install Ear</label>
+    <description>Installs Ear.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Ear.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ear</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Ear</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalNose</defName>
+    <label>install Nose</label>
+    <description>Installs Nose.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Nose.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Nose</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Nose</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Nose</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalJaw</defName>
+    <label>install Jaw</label>
+    <description>Installs Jaw.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Jaw.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Jaw</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Jaw</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalNeck</defName>
+    <label>install Neck</label>
+    <description>Installs Neck.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Neck.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neck</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Neck</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalRibcage</defName>
+    <label>install Ribcage</label>
+    <description>Installs Ribcage.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Ribcage.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ribcage</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Ribcage</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ribcage</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalSpine</defName>
+    <label>install Spine</label>
+    <description>Installs Spine.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Spine.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Spine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Spine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalLeg</defName>
+    <label>install Leg</label>
+    <description>Installs Leg.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Leg.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Leg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Leg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFleshHuman">
+    <defName>InstallNaturalFoot</defName>
+    <label>install Foot</label>
+    <description>Installs Foot.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing Foot.</jobString>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Foot</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Foot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+</Defs>

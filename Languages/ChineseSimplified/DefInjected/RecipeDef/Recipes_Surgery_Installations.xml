@@ -1,111 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Install natural parts -->
-
   <InstallNaturalShoulder.label>安装 肩膀</InstallNaturalShoulder.label>
   <InstallNaturalShoulder.description>安装 肩膀.</InstallNaturalShoulder.description>
   <InstallNaturalShoulder.jobString>安装 肩膀.</InstallNaturalShoulder.jobString>
-
   <InstallNaturalArm.label>安装 手臂</InstallNaturalArm.label>
   <InstallNaturalArm.description>安装 手臂.</InstallNaturalArm.description>
   <InstallNaturalArm.jobString>安装 手臂.</InstallNaturalArm.jobString>
-
   <InstallNaturalHand.label>安装 手</InstallNaturalHand.label>
   <InstallNaturalHand.description>安装 手.</InstallNaturalHand.description>
   <InstallNaturalHand.jobString>安装 手.</InstallNaturalHand.jobString>
-
   <InstallNaturalFinger.label>安装 手指</InstallNaturalFinger.label>
   <InstallNaturalFinger.description>安装 手指.</InstallNaturalFinger.description>
   <InstallNaturalFinger.jobString>安装 手指.</InstallNaturalFinger.jobString>
-
   <InstallNaturalWaist.label>安装 腰部</InstallNaturalWaist.label>
   <InstallNaturalWaist.description>安装 腰部.</InstallNaturalWaist.description>
   <InstallNaturalWaist.jobString>安装 腰部.</InstallNaturalWaist.jobString>
-
   <InstallNaturalToe.label>安装 脚趾</InstallNaturalToe.label>
   <InstallNaturalToe.description>安装 脚趾.</InstallNaturalToe.description>
   <InstallNaturalToe.jobString>安装 脚趾.</InstallNaturalToe.jobString>
-
   <InstallNaturalClavicle.label>安装 锁骨</InstallNaturalClavicle.label>
   <InstallNaturalClavicle.description>安装 锁骨.</InstallNaturalClavicle.description>
   <InstallNaturalClavicle.jobString>安装 锁骨.</InstallNaturalClavicle.jobString>
-
   <InstallNaturalSternum.label>安装 胸骨</InstallNaturalSternum.label>
   <InstallNaturalSternum.description>安装 胸骨.</InstallNaturalSternum.description>
   <InstallNaturalSternum.jobString>安装 胸骨.</InstallNaturalSternum.jobString>
-
   <InstallNaturalHumerus.label>安装 肱骨</InstallNaturalHumerus.label>
   <InstallNaturalHumerus.description>安装 肱骨.</InstallNaturalHumerus.description>
   <InstallNaturalHumerus.jobString>安装 肱骨.</InstallNaturalHumerus.jobString>
-
   <InstallNaturalRadius.label>安装 桡骨</InstallNaturalRadius.label>
   <InstallNaturalRadius.description>安装 桡骨.</InstallNaturalRadius.description>
   <InstallNaturalRadius.jobString>安装 桡骨.</InstallNaturalRadius.jobString>
-
   <InstallNaturalPelvis.label>安装 盆骨</InstallNaturalPelvis.label>
   <InstallNaturalPelvis.description>安装 盆骨.</InstallNaturalPelvis.description>
   <InstallNaturalPelvis.jobString>安装 盆骨.</InstallNaturalPelvis.jobString>
-
   <InstallNaturalFemur.label>安装 股骨</InstallNaturalFemur.label>
   <InstallNaturalFemur.description>安装 股骨.</InstallNaturalFemur.description>
   <InstallNaturalFemur.jobString>安装 股骨.</InstallNaturalFemur.jobString>
-
   <InstallNaturalTibia.label>安装 胫骨</InstallNaturalTibia.label>
   <InstallNaturalTibia.description>安装 胫骨.</InstallNaturalTibia.description>
   <InstallNaturalTibia.jobString>安装 胫骨.</InstallNaturalTibia.jobString>
-
   <InstallNaturalStomach.label>安装 胃</InstallNaturalStomach.label>
   <InstallNaturalStomach.description>安装 胃.</InstallNaturalStomach.description>
   <InstallNaturalStomach.jobString>安装 胃.</InstallNaturalStomach.jobString>
-
   <InstallNaturalHead.label>安装 头颅</InstallNaturalHead.label>
   <InstallNaturalHead.description>安装 头颅.</InstallNaturalHead.description>
   <InstallNaturalHead.jobString>安装 头颅.</InstallNaturalHead.jobString>
-
   <InstallNaturalSkull.label>安装 颅骨</InstallNaturalSkull.label>
   <InstallNaturalSkull.description>安装 颅骨.</InstallNaturalSkull.description>
   <InstallNaturalSkull.jobString>安装 颅骨.</InstallNaturalSkull.jobString>
-
   <InstallNaturalBrain.label>安装 大脑</InstallNaturalBrain.label>
   <InstallNaturalBrain.description>安装 大脑.</InstallNaturalBrain.description>
   <InstallNaturalBrain.jobString>安装 大脑.</InstallNaturalBrain.jobString>
-
   <InstallNaturalArm.label>安装 眼睛</InstallNaturalArm.label>
   <InstallNaturalArm.description>安装 眼睛.</InstallNaturalArm.description>
   <InstallNaturalArm.jobString>安装 眼睛.</InstallNaturalArm.jobString>
-
   <InstallNaturalEar.label>安装 耳朵</InstallNaturalEar.label>
   <InstallNaturalEar.description>安装 耳朵.</InstallNaturalEar.description>
   <InstallNaturalEar.jobString>安装 耳朵.</InstallNaturalEar.jobString>
-
   <InstallNaturalNose.label>安装 鼻子</InstallNaturalNose.label>
   <InstallNaturalNose.description>安装 鼻子.</InstallNaturalNose.description>
   <InstallNaturalNose.jobString>安装 鼻子.</InstallNaturalNose.jobString>
-
   <InstallNaturalJaw.label>安装 下颌</InstallNaturalJaw.label>
   <InstallNaturalJaw.description>安装 下颌.</InstallNaturalJaw.description>
   <InstallNaturalJaw.jobString>安装 下颌.</InstallNaturalJaw.jobString>
-
   <InstallNaturalNeck.label>安装 颈</InstallNaturalNeck.label>
   <InstallNaturalNeck.description>安装 颈.</InstallNaturalNeck.description>
   <InstallNaturalNeck.jobString>安装 颈.</InstallNaturalNeck.jobString>
-
   <InstallNaturalRib.label>安装 肋骨</InstallNaturalRib.label>
   <InstallNaturalRib.description>安装 肋骨.</InstallNaturalRib.description>
   <InstallNaturalRib.jobString>安装 肋骨.</InstallNaturalRib.jobString>
-
   <InstallNaturalSpine.label>安装 脊椎</InstallNaturalSpine.label>
   <InstallNaturalSpine.description>安装 脊椎.</InstallNaturalSpine.description>
   <InstallNaturalSpine.jobString>安装 脊椎.</InstallNaturalSpine.jobString>
-
   <InstallNaturalLeg.label>安装 腿</InstallNaturalLeg.label>
   <InstallNaturalLeg.description>安装 腿.</InstallNaturalLeg.description>
   <InstallNaturalLeg.jobString>安装 腿.</InstallNaturalLeg.jobString>
-
   <InstallNaturalFoot.label>安装 足</InstallNaturalFoot.label>
   <InstallNaturalFoot.description>安装 足.</InstallNaturalFoot.description>
   <InstallNaturalFoot.jobString>安装 足.</InstallNaturalFoot.jobString>
-
-
 </LanguageData>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="BodyPartNaturalBase" Name="LingBodyPartNaturalBase" Abstract="True">
     <graphicData>
       <texPath>Things/Item/BodyPart/LingOrgan</texPath>
@@ -39,7 +38,6 @@
       <Mass>0.2</Mass>
     </statBases>
   </ThingDef>
-  
   <!-- Head -->
   <ThingDef ParentName="LingBodyPartNaturalBase">
     <defName>Neck</defName>
@@ -121,7 +119,6 @@
       <Mass>0.5</Mass>
     </statBases>
   </ThingDef>
-
   <!-- Upper Limbs -->
   <ThingDef ParentName="LingBodyPartNaturalBase">
     <defName>Shoulder</defName>
@@ -163,7 +160,6 @@
       <Mass>0.04</Mass>
     </statBases>
   </ThingDef>
-
   <!-- Lower Limbs -->
   <ThingDef ParentName="LingBodyPartNaturalBase">
     <defName>Leg</defName>
@@ -195,7 +191,6 @@
       <Mass>0.02</Mass>
     </statBases>
   </ThingDef>
-  
   <!-- Bones -->
   <ThingDef ParentName="LingBodyPartNaturalBase">
     <defName>Ribcage</defName>
@@ -287,5 +282,4 @@
       <Mass>1.2</Mass>
     </statBases>
   </ThingDef>
-  
 </Defs>
