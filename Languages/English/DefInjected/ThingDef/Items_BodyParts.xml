@@ -1,100 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Upper Body -->
-
   <Torso.label>Torso</Torso.label>
   <Torso.description>The human body apart from the head, neck, arms, and legs.</Torso.description>
-
   <Waist.label>Waist</Waist.label>
   <Waist.description>The typically narrowed part of the body between the hips and chest or upper back.</Waist.description>
-
   <Stomach.label>Stomach</Stomach.label>
   <Stomach.description>The organ used for digesting food.</Stomach.description>
-
-
   <!-- Head -->
-
   <Neck.label>Neck</Neck.label>
   <Neck.description>The bodypart that connects the head with the body.</Neck.description>
-
   <Head.label>Head</Head.label>
   <Head.description>The base of operations for the human body that controls most of its movements.</Head.description>
-
   <Skull.label>Skull</Skull.label>
   <Skull.description>The skeleton of the head.</Skull.description>
-
   <Brain.label>Brain</Brain.label>
   <Brain.description>The nervous center of the body that controls all of its actions and thoughts.</Brain.description>
-
   <Eye.label>Eye</Eye.label>
   <Eye.description>A specialized light-sensitive sensory structure of the body that is the image-forming organ of sight.</Eye.description>
-
   <Ear.label>Ear</Ear.label>
   <Ear.description>The sensory structure of the body used for hearing.</Ear.description>
-
   <Nose.label>Nose</Nose.label>
   <Nose.description>The part of the face that bears the nostrils and covers the anterior part of the nasal cavity.</Nose.description>
-
   <Jaw.label>Jaw</Jaw.label>
   <Jaw.description>The parts constituting the walls of the mouth and serving to open and close it.</Jaw.description>
-
-
   <!-- Upper Limbs -->
-
   <Shoulder.label>Shoulder</Shoulder.label>
   <Shoulder.description>The part of the body that connects the torso with the arms.</Shoulder.description>
-
   <Arm.label>Arm</Arm.label>
   <Arm.description>The part of the body used for various precise actions.</Arm.description>
-
   <Hand.label>Hand</Hand.label>
   <Hand.description>The ending part of the arm.</Hand.description>
-
   <Finger.label>Finger</Finger.label>
   <Finger.description>Any of the five terminating members of the hand.</Finger.description>
-
-
   <!-- Lower Limbs -->
-
   <Leg.label>Leg</Leg.label>
   <Leg.description>A limb used especially for supporting the body and for walking.</Leg.description>
-
   <Foot.label>Foot</Foot.label>
   <Foot.description>The ending part of the leg.</Foot.description>
-
   <Toe.label>Toe</Toe.label>
   <Toe.description>Any of the five terminating members of the foot.</Toe.description>
-
-
   <!-- Bones -->
-
   <Ribcage.label>Ribcage</Ribcage.label>
   <Ribcage.description>A paired, curved bony rod that stiffens the walls of the body and protects the viscera.</Ribcage.description>
-
   <Spine.label>Spine</Spine.label>
   <Spine.description>The axial skeleton that consists of an articulated series of vertebrae which extend from the neck to the tail and protect the spinal cord.</Spine.description>
-
   <Clavicle.label>Clavicle</Clavicle.label>
   <Clavicle.description>A bone of the shoulder girdle typically serving to link the scapula and sternum.</Clavicle.description>
-
   <Sternum.label>Sternum</Sternum.label>
   <Sternum.description>A compound ventral bone or cartilage of most vertebrates other than fishes that connects the ribs or the shoulder girdle or both and in humans consists of the manubrium, gladiolus, and xiphoid process.</Sternum.description>
-
   <Humerus.label>Humerus</Humerus.label>
   <Humerus.description>The long bone of the upper arm or forelimb extending from the shoulder to the elbow.</Humerus.description>
-
   <Radius.label>Radius</Radius.label>
   <Radius.description>The bone on the thumb side of the human forearm.</Radius.description>
-
   <Pelvis.label>Pelvis</Pelvis.label>
   <Pelvis.description>A basin-shaped structure in the skeleton of many vertebrates that is formed by the pelvic girdle and adjoining bones of the spine.</Pelvis.description>
-
   <Femur.label>Femur</Femur.label>
   <Femur.description>The proximal bone of the hind or lower limb that extends from the hip to the knee.</Femur.description>
-
   <Tibia.label>Tibia</Tibia.label>
   <Tibia.description>The inner and usually larger of the two bones of the vertebrate hind or lower limb between the knee and ankle.</Tibia.description>
-
-
 </LanguageData>

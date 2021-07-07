@@ -1,115 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Install natural parts -->
-
   <InstallNaturalTorso.label>install Torso</InstallNaturalTorso.label>
   <InstallNaturalTorso.description>Installs Torso.</InstallNaturalTorso.description>
   <InstallNaturalTorso.jobString>Installing Torso.</InstallNaturalTorso.jobString>
-
   <InstallNaturalShoulder.label>install Shoulder</InstallNaturalShoulder.label>
   <InstallNaturalShoulder.description>Installs Shoulder.</InstallNaturalShoulder.description>
   <InstallNaturalShoulder.jobString>Installing Shoulder.</InstallNaturalShoulder.jobString>
-
   <InstallNaturalArm.label>install Arm</InstallNaturalArm.label>
   <InstallNaturalArm.description>Installs Arm.</InstallNaturalArm.description>
   <InstallNaturalArm.jobString>Installing Arm.</InstallNaturalArm.jobString>
-
   <InstallNaturalHand.label>install Hand</InstallNaturalHand.label>
   <InstallNaturalHand.description>Installs Hand.</InstallNaturalHand.description>
   <InstallNaturalHand.jobString>Installing Hand.</InstallNaturalHand.jobString>
-
   <InstallNaturalFinger.label>install Finger</InstallNaturalFinger.label>
   <InstallNaturalFinger.description>Installs Finger.</InstallNaturalFinger.description>
   <InstallNaturalFinger.jobString>Installing Finger.</InstallNaturalFinger.jobString>
-
   <InstallNaturalWaist.label>install Waist</InstallNaturalWaist.label>
   <InstallNaturalWaist.description>Installs Waist.</InstallNaturalWaist.description>
   <InstallNaturalWaist.jobString>Installing Waist.</InstallNaturalWaist.jobString>
-
   <InstallNaturalToe.label>install Toe</InstallNaturalToe.label>
   <InstallNaturalToe.description>Installs Toe.</InstallNaturalToe.description>
   <InstallNaturalToe.jobString>Installing Toe.</InstallNaturalToe.jobString>
-
   <InstallNaturalClavicle.label>install Clavicle</InstallNaturalClavicle.label>
   <InstallNaturalClavicle.description>Installs Clavicle.</InstallNaturalClavicle.description>
   <InstallNaturalClavicle.jobString>Installing Clavicle.</InstallNaturalClavicle.jobString>
-
   <InstallNaturalSternum.label>install Sternum</InstallNaturalSternum.label>
   <InstallNaturalSternum.description>Installs Sternum.</InstallNaturalSternum.description>
   <InstallNaturalSternum.jobString>Installing Sternum.</InstallNaturalSternum.jobString>
-
   <InstallNaturalHumerus.label>install Humerus</InstallNaturalHumerus.label>
   <InstallNaturalHumerus.description>Installs Humerus.</InstallNaturalHumerus.description>
   <InstallNaturalHumerus.jobString>Installing Humerus.</InstallNaturalHumerus.jobString>
-
   <InstallNaturalRadius.label>install Radius</InstallNaturalRadius.label>
   <InstallNaturalRadius.description>Installs Radius.</InstallNaturalRadius.description>
   <InstallNaturalRadius.jobString>Installing Radius.</InstallNaturalRadius.jobString>
-
   <InstallNaturalPelvis.label>install Pelvis</InstallNaturalPelvis.label>
   <InstallNaturalPelvis.description>Installs Pelvis.</InstallNaturalPelvis.description>
   <InstallNaturalPelvis.jobString>Installing Pelvis.</InstallNaturalPelvis.jobString>
-
   <InstallNaturalFemur.label>install Femur</InstallNaturalFemur.label>
   <InstallNaturalFemur.description>Installs Femur.</InstallNaturalFemur.description>
   <InstallNaturalFemur.jobString>Installing Femur.</InstallNaturalFemur.jobString>
-
   <InstallNaturalTibia.label>install Tibia</InstallNaturalTibia.label>
   <InstallNaturalTibia.description>Installs Tibia.</InstallNaturalTibia.description>
   <InstallNaturalTibia.jobString>Installing Tibia.</InstallNaturalTibia.jobString>
-
   <InstallNaturalStomach.label>install Stomach</InstallNaturalStomach.label>
   <InstallNaturalStomach.description>Installs Stomach.</InstallNaturalStomach.description>
   <InstallNaturalStomach.jobString>Installing Stomach.</InstallNaturalStomach.jobString>
-
   <InstallNaturalHead.label>install Head</InstallNaturalHead.label>
   <InstallNaturalHead.description>Installs Head.</InstallNaturalHead.description>
   <InstallNaturalHead.jobString>Installing Head.</InstallNaturalHead.jobString>
-
   <InstallNaturalSkull.label>install Skull</InstallNaturalSkull.label>
   <InstallNaturalSkull.description>Installs Skull.</InstallNaturalSkull.description>
   <InstallNaturalSkull.jobString>Installing Skull.</InstallNaturalSkull.jobString>
-
   <InstallNaturalBrain.label>install Brain</InstallNaturalBrain.label>
   <InstallNaturalBrain.description>Installs Brain.</InstallNaturalBrain.description>
   <InstallNaturalBrain.jobString>Installing Brain.</InstallNaturalBrain.jobString>
-
   <InstallNaturalEye.label>install Eye</InstallNaturalEye.label>
   <InstallNaturalEye.description>Installs Eye.</InstallNaturalEye.description>
   <InstallNaturalEye.jobString>Installing Eye.</InstallNaturalEye.jobString>
-
   <InstallNaturalEar.label>install Ear</InstallNaturalEar.label>
   <InstallNaturalEar.description>Installs Ear.</InstallNaturalEar.description>
   <InstallNaturalEar.jobString>Installing Ear.</InstallNaturalEar.jobString>
-
   <InstallNaturalNose.label>install Nose</InstallNaturalNose.label>
   <InstallNaturalNose.description>Installs Nose.</InstallNaturalNose.description>
   <InstallNaturalNose.jobString>Installing Nose.</InstallNaturalNose.jobString>
-
   <InstallNaturalJaw.label>install Jaw</InstallNaturalJaw.label>
   <InstallNaturalJaw.description>Installs Jaw.</InstallNaturalJaw.description>
   <InstallNaturalJaw.jobString>Installing Jaw.</InstallNaturalJaw.jobString>
-
   <InstallNaturalNeck.label>install Neck</InstallNaturalNeck.label>
   <InstallNaturalNeck.description>Installs Neck.</InstallNaturalNeck.description>
   <InstallNaturalNeck.jobString>Installing Neck.</InstallNaturalNeck.jobString>
-
   <InstallNaturalRibcage.label>install Ribcage</InstallNaturalRibcage.label>
   <InstallNaturalRibcage.description>Installs Ribcage.</InstallNaturalRibcage.description>
   <InstallNaturalRibcage.jobString>Installing Ribcage.</InstallNaturalRibcage.jobString>
-
   <InstallNaturalSpine.label>install Spine</InstallNaturalSpine.label>
   <InstallNaturalSpine.description>Installs Spine.</InstallNaturalSpine.description>
   <InstallNaturalSpine.jobString>Installing Spine.</InstallNaturalSpine.jobString>
-
   <InstallNaturalLeg.label>install Leg</InstallNaturalLeg.label>
   <InstallNaturalLeg.description>Installs Leg.</InstallNaturalLeg.description>
   <InstallNaturalLeg.jobString>Installing Leg.</InstallNaturalLeg.jobString>
-
   <InstallNaturalFoot.label>install Foot</InstallNaturalFoot.label>
   <InstallNaturalFoot.description>Installs Foot.</InstallNaturalFoot.description>
   <InstallNaturalFoot.jobString>Installing Foot.</InstallNaturalFoot.jobString>
-
-
 </LanguageData>
