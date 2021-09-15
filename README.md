@@ -1,6 +1,6 @@
 # RemoveAllBodyParts
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of LingLuos mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1208746347
@@ -16,7 +16,7 @@ Extended Human Body Simulation
 
 This mod lets you remove all bodyparts including the ones not possible before like fingers, various bones or whatever your corrupted mind desires.
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 
 [table]
@@ -28,17 +28,17 @@ This mod lets you remove all bodyparts including the ones not possible before li
 	[/tr]
 [/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 You can remove all bodypart
 	我想要你的一切，不管是思想还是灵魂，或是你的每根手指，每块骨头
        Chinese and English.
-can&apos;t with EPOE
-Sorry,I can&apos;t speak english well
+can't with EPOE
+Sorry,I can't speak english well
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

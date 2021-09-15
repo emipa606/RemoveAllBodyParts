@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Skull"]</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs</xpath>
+      <value>
+        <ThingDef ParentName="LingBodyPartNaturalBase">
+          <defName>Skull</defName>
+          <label>Skull</label>
+          <description>The skeleton of the head.</description>
+          <stackLimit>25</stackLimit>
+          <statBases>
+            <MarketValue>100</MarketValue>
+            <Mass>3</Mass>
+          </statBases>
+        </ThingDef>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

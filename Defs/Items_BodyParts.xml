@@ -60,16 +60,6 @@
     </statBases>
   </ThingDef>
   <ThingDef ParentName="LingBodyPartNaturalBase">
-    <defName>Skull</defName>
-    <label>Skull</label>
-    <description>The skeleton of the head.</description>
-    <stackLimit>25</stackLimit>
-    <statBases>
-      <MarketValue>100</MarketValue>
-      <Mass>3</Mass>
-    </statBases>
-  </ThingDef>
-  <ThingDef ParentName="LingBodyPartNaturalBase">
     <defName>Brain</defName>
     <label>Brain</label>
     <description>The nervous center of the body that controls all of its actions and thoughts.</description>
