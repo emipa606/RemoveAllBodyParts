@@ -1,165 +1,273 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Torso"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Torso</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Torso"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Torso"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Torso</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Shoulder"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Shoulder</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Shoulder"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Shoulder"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Shoulder</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Arm"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Arm</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Arm"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Arm"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Arm</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Hand"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Hand</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Hand"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Hand"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Hand</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Finger"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Finger</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Finger"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Finger"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Finger</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Waist"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Waist</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Waist"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Waist"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Waist</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Toe"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Toe</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Toe"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Toe"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Toe</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Clavicle"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Clavicle</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Clavicle"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Clavicle"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Clavicle</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Sternum"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Sternum</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Sternum"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Sternum"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Sternum</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Humerus"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Humerus</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Humerus"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Humerus"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Humerus</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Radius"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Radius</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Radius"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Radius"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Radius</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Pelvis"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Pelvis</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Pelvis"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Pelvis"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Pelvis</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Femur"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Femur</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Femur"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Femur"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Femur</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Tibia"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Tibia</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Tibia"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Tibia"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Tibia</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Stomach"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Stomach"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Stomach"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Head"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Head</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Head"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Head"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Head</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Skull"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Skull</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Skull"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Skull"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Skull</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Brain"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Brain</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Brain"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Brain"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Brain</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Eye"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Eye</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Eye"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Eye"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Eye</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Ear"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Ear</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Ear"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Ear"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Ear</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Nose"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Nose</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Nose"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Nose"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Nose</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Jaw"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Jaw</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Jaw"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Jaw"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Jaw</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Neck"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Neck</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Neck"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Neck"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Neck</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Ribcage"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Ribcage</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Ribcage"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Ribcage"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Ribcage</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Spine"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Spine</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Spine"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Spine"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Spine</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Leg"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Leg</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Leg"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Leg"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Leg</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/BodyPartDef[defName = "Foot"]</xpath>
-    <value>
-      <spawnThingOnRemoved>Foot</spawnThingOnRemoved>
-    </value>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BodyPartDef[defName = "Foot"]/spawnThingOnRemoved</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/BodyPartDef[defName = "Foot"]</xpath>
+      <value>
+        <spawnThingOnRemoved>Foot</spawnThingOnRemoved>
+      </value>
+    </nomatch>
   </Operation>
 </Patch>
