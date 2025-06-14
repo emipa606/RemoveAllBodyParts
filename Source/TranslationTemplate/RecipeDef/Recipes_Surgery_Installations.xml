@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: install Arm -->
+  <InstallNaturalArm.label>install Arm</InstallNaturalArm.label>
+  <!-- EN: Installs Arm. -->
+  <InstallNaturalArm.description>Installs Arm.</InstallNaturalArm.description>
+  <!-- EN: Installing Arm. -->
+  <InstallNaturalArm.jobString>Installing Arm.</InstallNaturalArm.jobString>
+  <!-- EN: install Brain -->
+  <InstallNaturalBrain.label>install Brain</InstallNaturalBrain.label>
+  <!-- EN: Installs Brain. -->
+  <InstallNaturalBrain.description>Installs Brain.</InstallNaturalBrain.description>
+  <!-- EN: Installing Brain. -->
+  <InstallNaturalBrain.jobString>Installing Brain.</InstallNaturalBrain.jobString>
+  <!-- EN: install Clavicle -->
+  <InstallNaturalClavicle.label>install Clavicle</InstallNaturalClavicle.label>
+  <!-- EN: Installs Clavicle. -->
+  <InstallNaturalClavicle.description>Installs Clavicle.</InstallNaturalClavicle.description>
+  <!-- EN: Installing Clavicle. -->
+  <InstallNaturalClavicle.jobString>Installing Clavicle.</InstallNaturalClavicle.jobString>
+  <!-- EN: install Ear -->
+  <InstallNaturalEar.label>install Ear</InstallNaturalEar.label>
+  <!-- EN: Installs Ear. -->
+  <InstallNaturalEar.description>Installs Ear.</InstallNaturalEar.description>
+  <!-- EN: Installing Ear. -->
+  <InstallNaturalEar.jobString>Installing Ear.</InstallNaturalEar.jobString>
+  <!-- EN: install Eye -->
+  <InstallNaturalEye.label>install Eye</InstallNaturalEye.label>
+  <!-- EN: Installs Eye. -->
+  <InstallNaturalEye.description>Installs Eye.</InstallNaturalEye.description>
+  <!-- EN: Installing Eye. -->
+  <InstallNaturalEye.jobString>Installing Eye.</InstallNaturalEye.jobString>
+  <!-- EN: install Femur -->
+  <InstallNaturalFemur.label>install Femur</InstallNaturalFemur.label>
+  <!-- EN: Installs Femur. -->
+  <InstallNaturalFemur.description>Installs Femur.</InstallNaturalFemur.description>
+  <!-- EN: Installing Femur. -->
+  <InstallNaturalFemur.jobString>Installing Femur.</InstallNaturalFemur.jobString>
+  <!-- EN: install Finger -->
+  <InstallNaturalFinger.label>install Finger</InstallNaturalFinger.label>
+  <!-- EN: Installs Finger. -->
+  <InstallNaturalFinger.description>Installs Finger.</InstallNaturalFinger.description>
+  <!-- EN: Installing Finger. -->
+  <InstallNaturalFinger.jobString>Installing Finger.</InstallNaturalFinger.jobString>
+  <!-- EN: install Foot -->
+  <InstallNaturalFoot.label>install Foot</InstallNaturalFoot.label>
+  <!-- EN: Installs Foot. -->
+  <InstallNaturalFoot.description>Installs Foot.</InstallNaturalFoot.description>
+  <!-- EN: Installing Foot. -->
+  <InstallNaturalFoot.jobString>Installing Foot.</InstallNaturalFoot.jobString>
+  <!-- EN: install Hand -->
+  <InstallNaturalHand.label>install Hand</InstallNaturalHand.label>
+  <!-- EN: Installs Hand. -->
+  <InstallNaturalHand.description>Installs Hand.</InstallNaturalHand.description>
+  <!-- EN: Installing Hand. -->
+  <InstallNaturalHand.jobString>Installing Hand.</InstallNaturalHand.jobString>
+  <!-- EN: install Head -->
+  <InstallNaturalHead.label>install Head</InstallNaturalHead.label>
+  <!-- EN: Installs Head. -->
+  <InstallNaturalHead.description>Installs Head.</InstallNaturalHead.description>
+  <!-- EN: Installing Head. -->
+  <InstallNaturalHead.jobString>Installing Head.</InstallNaturalHead.jobString>
+  <!-- EN: install Humerus -->
+  <InstallNaturalHumerus.label>install Humerus</InstallNaturalHumerus.label>
+  <!-- EN: Installs Humerus. -->
+  <InstallNaturalHumerus.description>Installs Humerus.</InstallNaturalHumerus.description>
+  <!-- EN: Installing Humerus. -->
+  <InstallNaturalHumerus.jobString>Installing Humerus.</InstallNaturalHumerus.jobString>
+  <!-- EN: install Jaw -->
+  <InstallNaturalJaw.label>install Jaw</InstallNaturalJaw.label>
+  <!-- EN: Installs Jaw. -->
+  <InstallNaturalJaw.description>Installs Jaw.</InstallNaturalJaw.description>
+  <!-- EN: Installing Jaw. -->
+  <InstallNaturalJaw.jobString>Installing Jaw.</InstallNaturalJaw.jobString>
+  <!-- EN: install Leg -->
+  <InstallNaturalLeg.label>install Leg</InstallNaturalLeg.label>
+  <!-- EN: Installs Leg. -->
+  <InstallNaturalLeg.description>Installs Leg.</InstallNaturalLeg.description>
+  <!-- EN: Installing Leg. -->
+  <InstallNaturalLeg.jobString>Installing Leg.</InstallNaturalLeg.jobString>
+  <!-- EN: install Neck -->
+  <InstallNaturalNeck.label>install Neck</InstallNaturalNeck.label>
+  <!-- EN: Installs Neck. -->
+  <InstallNaturalNeck.description>Installs Neck.</InstallNaturalNeck.description>
+  <!-- EN: Installing Neck. -->
+  <InstallNaturalNeck.jobString>Installing Neck.</InstallNaturalNeck.jobString>
+  <!-- EN: install Nose -->
+  <InstallNaturalNose.label>install Nose</InstallNaturalNose.label>
+  <!-- EN: Installs Nose. -->
+  <InstallNaturalNose.description>Installs Nose.</InstallNaturalNose.description>
+  <!-- EN: Installing Nose. -->
+  <InstallNaturalNose.jobString>Installing Nose.</InstallNaturalNose.jobString>
+  <!-- EN: install Pelvis -->
+  <InstallNaturalPelvis.label>install Pelvis</InstallNaturalPelvis.label>
+  <!-- EN: Installs Pelvis. -->
+  <InstallNaturalPelvis.description>Installs Pelvis.</InstallNaturalPelvis.description>
+  <!-- EN: Installing Pelvis. -->
+  <InstallNaturalPelvis.jobString>Installing Pelvis.</InstallNaturalPelvis.jobString>
+  <!-- EN: install Radius -->
+  <InstallNaturalRadius.label>install Radius</InstallNaturalRadius.label>
+  <!-- EN: Installs Radius. -->
+  <InstallNaturalRadius.description>Installs Radius.</InstallNaturalRadius.description>
+  <!-- EN: Installing Radius. -->
+  <InstallNaturalRadius.jobString>Installing Radius.</InstallNaturalRadius.jobString>
+  <!-- EN: install Ribcage -->
+  <InstallNaturalRibcage.label>install Ribcage</InstallNaturalRibcage.label>
+  <!-- EN: Installs Ribcage. -->
+  <InstallNaturalRibcage.description>Installs Ribcage.</InstallNaturalRibcage.description>
+  <!-- EN: Installing Ribcage. -->
+  <InstallNaturalRibcage.jobString>Installing Ribcage.</InstallNaturalRibcage.jobString>
+  <!-- EN: install Shoulder -->
+  <InstallNaturalShoulder.label>install Shoulder</InstallNaturalShoulder.label>
+  <!-- EN: Installs Shoulder. -->
+  <InstallNaturalShoulder.description>Installs Shoulder.</InstallNaturalShoulder.description>
+  <!-- EN: Installing Shoulder. -->
+  <InstallNaturalShoulder.jobString>Installing Shoulder.</InstallNaturalShoulder.jobString>
+  <!-- EN: install Skull -->
+  <InstallNaturalSkull.label>install Skull</InstallNaturalSkull.label>
+  <!-- EN: Installs Skull. -->
+  <InstallNaturalSkull.description>Installs Skull.</InstallNaturalSkull.description>
+  <!-- EN: Installing Skull. -->
+  <InstallNaturalSkull.jobString>Installing Skull.</InstallNaturalSkull.jobString>
+  <!-- EN: install Spine -->
+  <InstallNaturalSpine.label>install Spine</InstallNaturalSpine.label>
+  <!-- EN: Installs Spine. -->
+  <InstallNaturalSpine.description>Installs Spine.</InstallNaturalSpine.description>
+  <!-- EN: Installing Spine. -->
+  <InstallNaturalSpine.jobString>Installing Spine.</InstallNaturalSpine.jobString>
+  <!-- EN: install Sternum -->
+  <InstallNaturalSternum.label>install Sternum</InstallNaturalSternum.label>
+  <!-- EN: Installs Sternum. -->
+  <InstallNaturalSternum.description>Installs Sternum.</InstallNaturalSternum.description>
+  <!-- EN: Installing Sternum. -->
+  <InstallNaturalSternum.jobString>Installing Sternum.</InstallNaturalSternum.jobString>
+  <!-- EN: install Stomach -->
+  <InstallNaturalStomach.label>install Stomach</InstallNaturalStomach.label>
+  <!-- EN: Installs Stomach. -->
+  <InstallNaturalStomach.description>Installs Stomach.</InstallNaturalStomach.description>
+  <!-- EN: Installing Stomach. -->
+  <InstallNaturalStomach.jobString>Installing Stomach.</InstallNaturalStomach.jobString>
+  <!-- EN: install Tibia -->
+  <InstallNaturalTibia.label>install Tibia</InstallNaturalTibia.label>
+  <!-- EN: Installs Tibia. -->
+  <InstallNaturalTibia.description>Installs Tibia.</InstallNaturalTibia.description>
+  <!-- EN: Installing Tibia. -->
+  <InstallNaturalTibia.jobString>Installing Tibia.</InstallNaturalTibia.jobString>
+  <!-- EN: install Toe -->
+  <InstallNaturalToe.label>install Toe</InstallNaturalToe.label>
+  <!-- EN: Installs Toe. -->
+  <InstallNaturalToe.description>Installs Toe.</InstallNaturalToe.description>
+  <!-- EN: Installing Toe. -->
+  <InstallNaturalToe.jobString>Installing Toe.</InstallNaturalToe.jobString>
+  <!-- EN: install Torso -->
+  <InstallNaturalTorso.label>install Torso</InstallNaturalTorso.label>
+  <!-- EN: Installs Torso. -->
+  <InstallNaturalTorso.description>Installs Torso.</InstallNaturalTorso.description>
+  <!-- EN: Installing Torso. -->
+  <InstallNaturalTorso.jobString>Installing Torso.</InstallNaturalTorso.jobString>
+  <!-- EN: install Waist -->
+  <InstallNaturalWaist.label>install Waist</InstallNaturalWaist.label>
+  <!-- EN: Installs Waist. -->
+  <InstallNaturalWaist.description>Installs Waist.</InstallNaturalWaist.description>
+  <!-- EN: Installing Waist. -->
+  <InstallNaturalWaist.jobString>Installing Waist.</InstallNaturalWaist.jobString>
+</LanguageData>
