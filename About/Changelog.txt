@@ -1,5 +1,8 @@
 # Changelog for RemoveAllBodyParts
 
+1.6.1 - Updated french translation and support for bionic icons, via VincentRoth
+
+
 1.6.0 - Mod updated for 1.6 and passed autotests
 
 
