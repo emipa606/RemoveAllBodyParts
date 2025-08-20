@@ -14,6 +14,9 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
+  <loadBefore>
+	  <li>automatic.bionicicons</li>
+  </loadBefore>
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of LingLuos mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1208746347
