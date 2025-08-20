@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="BodyPartNaturalBase" Name="LingBodyPartNaturalBase" Abstract="True">
     <graphicData>
-      <texPath>Things/Item/BodyPart/LingOrgan</texPath>
+      <texPath>Things/Item/Health/HealthItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <drawGUIOverlay>true</drawGUIOverlay>
