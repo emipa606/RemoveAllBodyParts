@@ -203,7 +203,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>Hand</li>
+      <li>Finger</li>
     </appliedOnFixedBodyParts>
   </RecipeDef>
   <RecipeDef ParentName="SurgeryFleshHuman">
