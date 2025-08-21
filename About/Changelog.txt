@@ -1,5 +1,8 @@
 # Changelog for RemoveAllBodyParts
 
+1.6.2 - Fingers should now be applied to the right bodypart
+
+
 1.6.1 - Updated french translation and support for bionic icons, via VincentRoth
 
 
