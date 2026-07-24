@@ -1,5 +1,8 @@
 # Changelog for RemoveAllBodyParts
 
+1.6.3 - Fixed wrong author name
+
+
 1.6.2 - Fingers should now be applied to the right bodypart
 
 
